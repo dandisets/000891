@@ -10,10 +10,10 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Beinlich, Felix R.M.; Asiminas, Antonios; Nedergaard, Maiken; Untiet, Verena;
-  Bojarowska, Zuzanna; Plá, Virginia ; Sigurdsson, Björn ; Timmel, Vincenzo; Gehrig,
-  Lukas (2024) Oxygen Imaging of Hypoxic Pockets in the Mouse Cerebral Cortex (Version
-  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Beinlich, Felix R.M.; Asiminas, Antonios; Untiet, Verena; Bojarowska, Zuzanna;
+  Plá, Virginia ; Sigurdsson, Björn ; Timmel, Vincenzo; Gehrig, Lukas; Graber, Michael
+  H.; Hirase, Hajime ; Nedergaard, Maiken (2024) Oxygen Imaging of Hypoxic Pockets
+  in the Mouse Cerebral Cortex (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: yzhaoinuw@gmail.com
@@ -41,20 +41,6 @@ contributor:
   includeInCitation: true
   name: Asiminas, Antonios
   roleName: []
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/00trqv719
-    name: University of Rochester Medical Center
-    schemaKey: Affiliation
-  - identifier: https://ror.org/035b05819
-    name: University of Copenhagen
-    schemaKey: Affiliation
-  email: nedergaard@urmc.rochester.edu
-  includeInCitation: true
-  name: Nedergaard, Maiken
-  roleName:
-  - dcite:Author
-  - dcite:ContactPerson
   schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/035b05819
@@ -104,8 +90,130 @@ contributor:
   name: Gehrig, Lukas
   roleName: []
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04mq2g308
+    name: University of Applied Sciences and Arts Northwestern Switzerland
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Graber, Michael H.
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00trqv719
+    name: University of Rochester Medical Center
+    schemaKey: Affiliation
+  - identifier: https://ror.org/035b05819
+    name: University of Copenhagen
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: 'Hirase, Hajime '
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00trqv719
+    name: University of Rochester Medical Center
+    schemaKey: Affiliation
+  - identifier: https://ror.org/035b05819
+    name: University of Copenhagen
+    schemaKey: Affiliation
+  email: nedergaard@urmc.rochester.edu
+  includeInCitation: true
+  name: Nedergaard, Maiken
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: '114955'
+  contactPoint: []
+  identifier: https://ror.org/03hz8wd80
+  includeInCitation: false
+  name: Lundbeckfonden
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: NNF19OC0058058
+  contactPoint: []
+  identifier: https://ror.org/04txyc737
+  includeInCitation: false
+  name: Novo Nordisk Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: MURI W911NF1910280
+  contactPoint: []
+  identifier: https://ror.org/05epdh915
+  includeInCitation: false
+  name: United States Army Research Office
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: W81XWH-16-1-0555
+  contactPoint: []
+  identifier: https://ror.org/05epdh915
+  includeInCitation: false
+  name: United States Army Research Office
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: W81XWH-22-1-0676
+  contactPoint: []
+  identifier: https://ror.org/05epdh915
+  includeInCitation: false
+  name: United States Army Research Office
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 0134-00107B
+  contactPoint: []
+  identifier: https://ror.org/05svhj534
+  includeInCitation: false
+  name: Independent Research Fund Denmark
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 3101-00282B
+  contactPoint: []
+  identifier: https://ror.org/05svhj534
+  includeInCitation: false
+  name: Independent Research Fund Denmark
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01AT012312
+  contactPoint: []
+  identifier: https://ror.org/05h1kgg64
+  includeInCitation: false
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01AT011439
+  contactPoint: []
+  identifier: https://ror.org/05h1kgg64
+  includeInCitation: false
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: U19 NS128613
+  contactPoint: []
+  identifier: https://ror.org/05h1kgg64
+  includeInCitation: false
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01HL122578
+  contactPoint:
+  - schemaKey: ContactPoint
+  identifier: https://ror.org/05h1kgg64
+  includeInCitation: false
+  name: National Institute of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-02-07T18:17:40.108989+00:00'
-datePublished: '2024-02-13T19:48:15.088886+00:00'
+datePublished: '2024-02-13T20:52:15.264376+00:00'
 description: GeNL bioluminescence imaging detects the existence of spontaneous transient
   "hypoxic pockets" in awake behaving mice.
 doi: 10.80507/dandi.123456/0.123456.1234
@@ -120,13 +228,13 @@ manifestLocation:
 name: Oxygen Imaging of Hypoxic Pockets in the Mouse Cerebral Cortex
 protocol: []
 publishedBy:
-  endDate: '2024-02-13T19:48:15.088886+00:00'
-  id: urn:uuid:d0b7a554-833c-4129-921a-5a1fedd4ea8c
+  endDate: '2024-02-13T20:52:15.264376+00:00'
+  id: urn:uuid:49175e00-e4f2-4004-a1cc-3bce6bcf04bb
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-02-13T19:48:15.088886+00:00'
+  startDate: '2024-02-13T20:52:15.264376+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:49b8a958-1729-43d8-a32f-9398482ff1de
+  - id: urn:uuid:0d1572c8-b099-43e0-abc1-ba5df4f98733
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
