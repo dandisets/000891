@@ -10,9 +10,10 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Beinlich, Felix R.M.; Asiminas, Antonios; Nedergaard, Maiken (2024) Oxygen
-  Imaging of Hypoxic Pockets in the Mouse Cerebral Cortex (Version draft) [Data set].
-  DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Beinlich, Felix R.M.; Asiminas, Antonios; Nedergaard, Maiken; Untiet, Verena;
+  Bojarowska, Zuzanna; Plá, Virginia ; Sigurdsson, Björn ; Timmel, Vincenzo; Gehrig,
+  Lukas (2024) Oxygen Imaging of Hypoxic Pockets in the Mouse Cerebral Cortex (Version
+  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: yzhaoinuw@gmail.com
@@ -55,8 +56,56 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/035b05819
+    name: University of Copenhagen
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Untiet, Verena
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/035b05819
+    name: University of Copenhagen
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Bojarowska, Zuzanna
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/035b05819
+    name: University of Copenhagen
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: 'Plá, Virginia '
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/035b05819
+    name: University of Copenhagen
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: 'Sigurdsson, Björn '
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04mq2g308
+    name: University of Applied Sciences and Arts Northwestern Switzerland
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Timmel, Vincenzo
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/04mq2g308
+    name: University of Applied Sciences and Arts Northwestern Switzerland
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Gehrig, Lukas
+  roleName: []
+  schemaKey: Person
 dateCreated: '2024-02-07T18:17:40.108989+00:00'
-datePublished: '2024-02-07T18:26:31.499820+00:00'
+datePublished: '2024-02-13T19:48:15.088886+00:00'
 description: GeNL bioluminescence imaging detects the existence of spontaneous transient
   "hypoxic pockets" in awake behaving mice.
 doi: 10.80507/dandi.123456/0.123456.1234
@@ -71,13 +120,13 @@ manifestLocation:
 name: Oxygen Imaging of Hypoxic Pockets in the Mouse Cerebral Cortex
 protocol: []
 publishedBy:
-  endDate: '2024-02-07T18:26:31.499820+00:00'
-  id: urn:uuid:133c37b7-702f-4180-881b-fa3aba9d88bf
+  endDate: '2024-02-13T19:48:15.088886+00:00'
+  id: urn:uuid:d0b7a554-833c-4129-921a-5a1fedd4ea8c
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-02-07T18:26:31.499820+00:00'
+  startDate: '2024-02-13T19:48:15.088886+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:af369b52-fb5a-4222-a40f-99ba7edf717e
+  - id: urn:uuid:49b8a958-1729-43d8-a32f-9398482ff1de
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
