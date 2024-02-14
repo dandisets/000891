@@ -7,9 +7,21 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 59185589849
+  numberOfFiles: 87
+  numberOfSubjects: 63
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured: []
 citation: Beinlich, Felix R.M.; Asiminas, Antonios; Untiet, Verena; Bojarowska, Zuzanna;
   Plá, Virginia ; Sigurdsson, Björn ; Timmel, Vincenzo; Gehrig, Lukas; Graber, Michael
   H.; Hirase, Hajime ; Nedergaard, Maiken (2024) Oxygen Imaging of Hypoxic Pockets
@@ -213,7 +225,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-02-07T18:17:40.108989+00:00'
-datePublished: '2024-02-13T20:52:15.264376+00:00'
+datePublished: '2024-02-14T00:29:08.566180+00:00'
 description: GeNL bioluminescence imaging detects the existence of spontaneous transient
   "hypoxic pockets" in awake behaving mice.
 doi: 10.80507/dandi.123456/0.123456.1234
@@ -228,13 +240,13 @@ manifestLocation:
 name: Oxygen Imaging of Hypoxic Pockets in the Mouse Cerebral Cortex
 protocol: []
 publishedBy:
-  endDate: '2024-02-13T20:52:15.264376+00:00'
-  id: urn:uuid:49175e00-e4f2-4004-a1cc-3bce6bcf04bb
+  endDate: '2024-02-14T00:29:08.566180+00:00'
+  id: urn:uuid:2d1cfa91-5ac5-4134-a225-1d274362af49
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-02-13T20:52:15.264376+00:00'
+  startDate: '2024-02-14T00:29:08.566180+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:0d1572c8-b099-43e0-abc1-ba5df4f98733
+  - id: urn:uuid:d52bf5c3-dd32-403b-a3ae-4d79796e6ef6
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
