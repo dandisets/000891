@@ -25,7 +25,8 @@ assetsSummary:
 citation: Beinlich, Felix R.M.; Asiminas, Antonios; Untiet, Verena; Bojarowska, Zuzanna;
   Plá, Virginia ; Sigurdsson, Björn ; Timmel, Vincenzo; Gehrig, Lukas; Graber, Michael
   H.; Hirase, Hajime ; Nedergaard, Maiken (2024) Oxygen Imaging of Hypoxic Pockets
-  in the Mouse Cerebral Cortex (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  in the Mouse Cerebral Cortex (Version 0.240215.0831) [Data set]. DANDI archive.
+  https://doi.org/10.48324/dandi.000891/0.240215.0831
 contributor:
 - affiliation: []
   email: yzhaoinuw@gmail.com
@@ -228,15 +229,15 @@ dateCreated: '2024-02-07T18:17:40.108989+00:00'
 datePublished: '2024-02-15T08:31:52.665465+00:00'
 description: GeNL bioluminescence imaging detects the existence of spontaneous transient
   "hypoxic pockets" in awake behaving mice.
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000891/0.240215.0831
 ethicsApproval: []
-id: DANDI:000891/draft
+id: DANDI:000891/0.240215.0831
 identifier: DANDI:000891
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000891/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000891/0.240215.0831/assets.yaml
 name: Oxygen Imaging of Hypoxic Pockets in the Mouse Cerebral Cortex
 protocol: []
 publishedBy:
@@ -256,6 +257,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000891/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000891/0.240215.0831
+version: 0.240215.0831
 wasGeneratedBy: []
